@@ -1,0 +1,3 @@
+'use client'
+import Link from 'next/link'
+export default function WelcomePage(){return(<div style={{minHeight:'100vh',background:'#f0fdf4',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}><h1>Welcome to JSTU Cafeteria</h1><a href="/canteen" style={{background:'green',color:'white',padding:'10px 20px',borderRadius:'8px',textDecoration:'none',marginTop:'20px'}}>Go to Canteen</a><br/><br/><a href="/admin" style={{color:'green'}}>Go to Admin</a></div>)}
